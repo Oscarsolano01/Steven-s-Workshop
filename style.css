@@ -7,6 +7,10 @@ body {
  color:aliceblue;
 }
 
+button {
+ font-size:18px;
+ background-color: #c74747;
+}
 h1 {
  display: flex ;
  justify-content: center;
@@ -16,12 +20,42 @@ h1 {
  border-radius:5px;
 }
 
-.greenEggsandHam{
+.greenEggsandHam,
+.farewell-to-arms,
+.catcherintherye,
+.confucius,
+.theRepublic{
  display:flex;
  justify-content: center;
+
 }
 
 a {
  color:lightcyan;
+ font-size: 25px;
+}
+
+figcaption {
  font-size: 20px;
+}
+
+#greeneggsimg, 
+#afarewellToArms,
+#catcherintherye,
+#confucius,
+#theRepublic {
+ width: 350;
+ height: 350px;
+ margin:5px;
+ padding:20px;
+}
+
+p { 
+ font-size:32px;
+}
+
+form { 
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
 }
